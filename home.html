@@ -23,14 +23,11 @@
         <button class="btn btn-icon btn-transparent-dark order-1 order-lg-0 me-2 ms-lg-2 me-lg-0" id="sidebarToggle"><i
                 data-feather="menu"></i></button>
         <!-- Navbar Brand-->
-        <!-- * * Tip * * You can use text or an image for your navbar brand.-->
-        <!-- * * * * * * When using an image, we recommend the SVG format.-->
-        <!-- * * * * * * Dimensions: Maximum height: 32px, maximum width: 240px-->
-        <a class="navbar-brand pe-3 ps-4 ps-lg-2" href="index.html">INVENTARIS RUMAH SAKIT</a>
+        <a class="navbar-brand" href="home.html">INVENTARIS RUMAH SAKIT</a>
 
         <!-- Navbar Items-->
         <ul class="navbar-nav align-items-center ms-auto">
-            <!-- User Dropdown-->
+            <!-- User Dropdown Logout top-->
             <li class="nav-item dropdown no-caret dropdown-user me-3 me-lg-4">
                 <a class="btn btn-icon btn-transparent-dark dropdown-toggle" id="navbarDropdownUserImage"
                     href="javascript:void(0);" role="button" data-bs-toggle="dropdown" aria-haspopup="true"
@@ -46,7 +43,7 @@
                         </div>
                     </h6>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#!">
+                    <a class="dropdown-item" href="index.html">
                         <div class="dropdown-item-icon"><i data-feather="log-out"></i></div>
                         Logout
                     </a>
@@ -54,28 +51,12 @@
             </li>
         </ul>
     </nav>
+    <!-- Navber side -->
     <div id="layoutSidenav">
         <div id="layoutSidenav_nav">
             <nav class="sidenav shadow-right sidenav-light">
                 <div class="sidenav-menu">
                     <div class="nav accordion" id="accordionSidenav">
-                        <!-- Sidenav Menu Heading (Account)-->
-                        <!-- * * Note: * * Visible only on and above the sm breakpoint-->
-                        <div class="sidenav-menu-heading d-sm-none">Account</div>
-                        <!-- Sidenav Link (Alerts)-->
-                        <!-- * * Note: * * Visible only on and above the sm breakpoint-->
-                        <a class="nav-link d-sm-none" href="#!">
-                            <div class="nav-link-icon"><i data-feather="bell"></i></div>
-                            Alerts
-                            <span class="badge bg-warning-soft text-warning ms-auto">4 New!</span>
-                        </a>
-                        <!-- Sidenav Link (Messages)-->
-                        <!-- * * Note: * * Visible only on and above the sm breakpoint-->
-                        <a class="nav-link d-sm-none" href="#!">
-                            <div class="nav-link-icon"><i data-feather="mail"></i></div>
-                            Messages
-                            <span class="badge bg-success-soft text-success ms-auto">2 New!</span>
-                        </a>
                         <!-- Sidenav Menu Heading (Core)-->
                         <div class="sidenav-menu-heading">Daftar Ruangan</div>
                         <!-- Sidenav Accordion (Dashboard)-->
@@ -88,25 +69,21 @@
                         </a>
                         <div class="collapse" id="collapseDashboards" data-bs-parent="#accordionSidenav">
                             <nav class="sidenav-menu-nested nav accordion" id="accordionSidenavPagesMenu">
-
                                 <a class="nav-link" href="detail.html">Ruang Melati</a>
-                                <a class="nav-link" href="">Ruang Anggrek</a>
-                                <a class="nav-link" href="">Ruang ICU</a>
-                                <a class="nav-link" href="">Ruang Deandles</a>
-                                <a class="nav-link" href="">Ruang Rajawali</a>
+                                <a class="nav-link" href="detail.html">Ruang Anggrek</a>
+                                <a class="nav-link" href="detail.html">Ruang ICU</a>
+                                <a class="nav-link" href="detail.html">Ruang Deandles</a>
+                                <a class="nav-link" href="detail.html">Ruang Rajawali</a>
                             </nav>
                         </div>
 
-                        <!-- Divider -->
-                        <hr class="sidebar-divider text-black" style="background-color: #858796;">
-
-                        <!-- Sidenav Accordion (Pages)-->
+                        <!-- Sidenav -->
                         <a class="nav-link collapsed" href="home.html" aria-expanded="false"
                             aria-controls="collapsePages">
                             <div class="nav-link-icon"><i data-feather="grid"></i></div>
                             Dashboard
                         </a>
-                        <!-- Sidenav Accordion (Utilities)-->
+                        <!-- Sidenav -->
                         <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse"
                             data-bs-target="#collapseUtilities" aria-expanded="false" aria-controls="collapseUtilities">
                             <div class="nav-link-icon"><i data-feather="tool"></i></div>
@@ -118,11 +95,11 @@
                                 <a class="nav-link" href="index.html">Logout</a>
                             </nav>
                         </div>
-                        <!-- Sidenav Link (Charts)-->
                     </div>
 
             </nav>
         </div>
+        <!-- Content Utama -->
         <div id="layoutSidenav_content">
             <main>
                 <header class="page-header page-header-dark bg-gradient-primary-to-secondary pb-10">
@@ -171,13 +148,10 @@
 
                 <!-- Main page content-->
                 <div class="container-xl px-4 mt-n10">
-                    <!-- Wizard card example with navigation-->
                     <div class="card">
-
                         <div class="card-header border-bottom">
-                            <!-- Wizard navigation-->
                             <div class=container-xl px-4>
-                                <!-- Wizard navigation item 1-->
+                                <!-- Card peritem-->
                                 <div class="card card-icon lift lift-sm mb-4">
                                     <div class="card-body">
                                         <div class="d-flex align-items-center justify-content-between">
@@ -193,7 +167,7 @@
                                     </div>
                                 </div>
 
-                                <!-- Wizard navigation item 2-->
+                                <!-- Card peritem-->
                                 <div class="card card-icon lift lift-sm mb-4">
                                     <div class="card-body">
                                         <div class="d-flex align-items-center justify-content-between">
@@ -209,7 +183,7 @@
                                     </div>
                                 </div>
 
-                                <!-- Wizard navigation item 3-->
+                                <!-- Card peritem-->
                                 <div class="card card-icon lift lift-sm mb-4">
                                     <div class="card-body">
                                         <div class="d-flex align-items-center justify-content-between">
@@ -225,7 +199,7 @@
                                     </div>
                                 </div>
 
-                                <!-- Wizard navigation item 4-->
+                                <!-- Card peritem-->
                                 <div class="card card-icon lift lift-sm mb-4">
                                     <div class="card-body">
                                         <div class="d-flex align-items-center justify-content-between">
@@ -241,7 +215,7 @@
                                     </div>
                                 </div>
 
-                                <!-- Wizard navigation item 5-->
+                                <!-- Card peritem-->
                                 <div class="card card-icon lift lift-sm mb-4">
                                     <div class="card-body">
                                         <div class="d-flex align-items-center justify-content-between">
@@ -257,7 +231,7 @@
                                     </div>
                                 </div>
 
-                                <!-- Wizard navigation item 6-->
+                                <!-- Card peritem-->
                                 <div class="card card-icon lift lift-sm mb-4">
                                     <div class="card-body">
                                         <div class="d-flex align-items-center justify-content-between">
@@ -273,7 +247,7 @@
                                     </div>
                                 </div>
 
-                                <!-- Wizard navigation item 7-->
+                                <!-- Card peritem-->
                                 <div class="card card-icon lift lift-sm mb-4">
                                     <div class="card-body">
                                         <div class="d-flex align-items-center justify-content-between">
@@ -292,7 +266,6 @@
                         </div>
 
                         <!-- Modal Edit Ruangan-->
-                        
                         <div class="modal fade" id="editModal" tabindex="-1" role="dialog"
                             aria-labelledby="editModalLabel" aria-hidden="true">
                             <div class="modal-dialog" role="document">
@@ -317,7 +290,7 @@
                         <footer class="footer-admin mt-auto footer-light">
                             <div class="container-xl px-4">
                                 <div class="row">
-                                    <div class="col-md-6 small">Copyright &copy; Your Website 2021</div>
+                                    <div class="col-md-6 small">Copyright &copy; Your Website 2023</div>
                                     <div class="col-md-6 text-md-end small">
                                         <a href="#!">Privacy Policy</a>
                                         &middot;
